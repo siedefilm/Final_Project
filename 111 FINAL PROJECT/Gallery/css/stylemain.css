@@ -1,0 +1,86 @@
+:root {
+  --black: #000000;
+  --white: #f8f8ff;
+  --dusk: #a9a8b8;
+}
+
+html {
+  font-size: 10px;
+  font-family:"Agency FB", sans-serif;
+
+}
+
+
+
+h1 {
+  padding-top: 100px;
+
+}
+
+h2 {
+  color: var(--dusk);
+  font-family:"Agency FB", sans-serif;
+  font-size: 8rem;
+  font-weight: bolder;
+  text-align: center;
+  transform:scaleY(2)
+  padding: 50px;
+}
+
+
+h3 {
+  color: #000000;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+p {
+  padding: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+  color: #000000;
+  font-size: 2rem;
+  text-align: center;
+  overflow: visible;
+
+
+
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Agency FB", sans-serif;
+  font-size: 4rem;
+}
+
+body2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 20px;
+  background-color: var(--dusk);
+  padding: 0.5rem 1.5rem;
+  font-size: 4rem;
+  font-color: var(--black);
+  outline: none;
+  border: none;
+  border-radius: 1.2rem 1.1rem 1.1rem 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+.btn:hover {
+  transform:translateY( -6px);
+  box-shadow: 0 6px 6px #00000040;
+
+}
